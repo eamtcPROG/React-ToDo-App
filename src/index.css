@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #caf0f8;
 }
 
 code {
@@ -14,8 +15,49 @@ code {
 
 .strike {
   text-decoration: line-through;
+  font-size: 1.5em;
+  color: #a8dadc;
 }
 
+h1{
+  color: #f1faee;
+}
 button,input,form,div {
   margin: 5px;
+  font-size: 18px;
+  color: #f1faee;
+}
+input{
+  color:black;
+  border: solid black 2px;
+  border-radius: 5%;
+}
+input:hover{
+  color:black;
+  border: solid white 3px;
+  border-radius: 5%;
+}
+.box {
+  margin-top: 10%;
+  background-color: #457b9d;
+  box-shadow: 10px 10px 5px 0px rgba(201,201,201,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(201,201,201,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(201,201,201,0.75);
+border: solid black 3px;
+}
+
+button{
+  background-color: #f1faee ;
+  color: black;
+  border: solid black 2px;
+  border-radius: 5%;
+}
+button:hover{
+  background-color: #e63946 ;
+  color: white;
+  border: solid white 3px;
+  border-radius: 5%;
+}
+.left{
+  text-align: left;
 }
